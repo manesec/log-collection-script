@@ -9,7 +9,7 @@ In `/etc/log-collection`
 
 ## Location
 
-`/usr/local/log-collection
+`/usr/local/log-collection`
 
 ## example 
 
