@@ -1,0 +1,1 @@
+0 0 * * * root bash /usr/local/log-collection/update.sh
