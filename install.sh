@@ -4,9 +4,10 @@ read -p "Enter Device name: " device
 
 
 apt update 
-apt install -y jq net-tools curl crontab
+apt install -y jq net-tools curl cron
 
-cp -r settings /etc/log-collection
+mkdir -p /etc/log-collection/
+cp -r settings/* /etc/log-collection
 cp -r . /usr/local/log-collection
 
 echo $apiserver > /etc/log-collection/post_url
